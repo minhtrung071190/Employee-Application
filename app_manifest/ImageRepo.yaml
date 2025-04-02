@@ -4,7 +4,7 @@ metadata:
   name: myapp
   namespace: flux-system
 spec:
-  image: [ecr]/myapp
+  image: 063388721629.dkr.ecr.us-east-1.amazonaws.com/myapp
   interval: 1m
-    secretRef:
+  secretRef:
     name: ecr-secret
